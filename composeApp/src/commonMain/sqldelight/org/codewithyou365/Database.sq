@@ -1,0 +1,21 @@
+CREATE TABLE ConfigGit (
+  url TEXT NOT NULL,
+  branch TEXT NOT NULL,
+  PRIMARY KEY (url, branch)
+);
+
+CREATE INDEX configGitUrlBranchIndex ON ConfigGit(url,branch);
+
+insert:
+INSERT OR REPLACE INTO ConfigGit(url,branch) VALUES (?,?);
+
+selectAll:
+SELECT *
+FROM ConfigGit;
+
+update:
+UPDATE ConfigGit SET url=?,branch=? WHERE url=? AND branch=?;
+
+
+delete:
+DELETE FROM ConfigGit WHERE url=? AND branch=?;

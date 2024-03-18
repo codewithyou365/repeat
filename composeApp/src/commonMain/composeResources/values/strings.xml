@@ -1,0 +1,20 @@
+<resources>
+    <string name="none"></string>
+    <string name="app_name">KMP App</string>
+    <string name="msg_confirm_delete_item">Do you confirm to delete the item?</string>
+    <string name="msg_need_at_least_one_item">Need at least one item</string>
+    <string name="msg_under_development">under development</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_confirm">Confirm</string>
+    <string name="btn_edit">Edit</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_copy">Copy</string>
+    <string name="btn_back">Back</string>
+    <string name="btn_add">Add</string>
+    <string name="btn_download">Download</string>
+    <string name="label_add_git_repository">Add Git Repository</string>
+    <string name="label_edit_git_repository">Edit Git Repository</string>
+    <string name="label_url">URL</string>
+    <string name="label_branch">Branch</string>
+
+</resources>
